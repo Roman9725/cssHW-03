@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.floatL {
+  float: left;
+}
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.headSec {
+  background-color: black;
+  color: #c4b2a8;
+
+  height: 250px;
+  width: 100%;
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-size: 50px;
+}
+.headSec h1 {
+  text-shadow: 5px 5px #f84084, 10px 10px #5a2745 ;
+}
+
+.text h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  color: #fd675e;
+
+  text-shadow: -5px -5px #e4bae8;
+}
+
+.text2 {
+  font-size: 50px;
+  text-shadow: -10px -5px 5px gray;
+}
+
+.footSec {
+  background-color: black;
+  height: 300px;
+}
+
+.footSec p {
+  font-size: 50px;
+  display: inline;
+  font-weight: bold;
+  margin: 0 35px 0 35px;
+  font-family: arial;
+}
+
+.first {
+  position: relative;
+  top: 50px;
+}
+
+.second {
+  position: relative;
+  top: 120px;
+}
+
+.flame {
+  color: #fdfcf3;
+  text-shadow: 2px -1px 0px orange, 5px -2px 10px orangered, 7px -5px 20px red;
+}
+
+.ghost {
+color: #969696;
+text-shadow: 10px -5px 5px #4f514e;
+}
+
+.vegas {
+  color: #f9fcfc;
+  text-shadow: 5px 3px 10px hotpink, -5px -3px 10px hotpink;
+}
+
+.comic {
+  color: #740e00;
+  text-shadow: 5px 5px 5px #3d788a, 10px 10px 10px #3d788a, 15px 15px 15px #3d788a;
+}
+
+.dracula {
+  color: #95a5d9;
+  text-shadow: 5px 5px 5px #535c81, 10px 10px 10px #535c81;
+}
+
+.row {
+  margin-top: 15px;
+  text-align: justify;
+  columns: 3;
+  column-gap: 40px;
+  border: 2px solid black;
+  padding: 0 7px 0 7px;
+}
+
+.firstR {
+  column-rule: 15px solid blue;
+}
+
+.secondR {
+  column-rule: 15px solid green;
+}
+
+.thirdR {
+  column-rule: 15px solid red;
+}
+
+.fourthR {
+  column-rule: 15px solid yellow;
+}
+
+.transformSec {
+  columns: 4;
+}
+
+.verticalRl h3 {
+  font-size: 50px;
+}
+
+.wrOne {
+  writing-mode: vertical-lr;
+}
+
+.wrTwo {
+  writing-mode: vertical-rl;
+  margin-left: 40px;
+  color: red;
+  transform: rotate(180deg);
+}
+
+.wrThree {
+  text-align: justify;
+  margin-top: 40px;
+}
+
+.wrFour {
+  writing-mode: vertical-rl;
+  color: red;
+  margin-left: 40px;
+}
